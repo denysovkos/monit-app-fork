@@ -1,0 +1,36 @@
+{
+  "name": "monit_app",
+  "version": "0.0.1",
+  "description": "Wow such top. So stats",
+  "main": "app.js",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "test": "make test",
+    "precommit": "standard"
+  },
+  "standard": {
+    "ignore": [
+      "bin/vtop.js"
+    ]
+  },
+  "author": {
+    "name": "KD",
+    "email": "denysov.kos@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "blessed": "0.1.81",
+    "commander": "2.11.0",
+    "drawille": "1.1.0",
+    "glob": "7.1.2",
+    "husky": "^0.14.3",
+    "os-utils": "0.0.14",
+    "read": "1.0.7",
+    "sudo": "1.0.3",
+    "use-strict": "^1.0.1"
+  }
+}
